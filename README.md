@@ -57,6 +57,7 @@ Note: Keep all the switch faults in off position
 <img width="747" height="338" alt="image" src="https://github.com/user-attachments/assets/dd117c5d-ee32-47c7-946c-df6180b0d33f" />
 
 ## PROGRAM
+```
 clc;
 clear;
 close;
@@ -130,6 +131,7 @@ recovered = filter(h, 1, demod);
 subplot(5,1,5);
 plot(t, recovered, 'r');
 xtitle("Recovered Message Signal (After LPF)", "Time (s)", "Amplitude");
+```
 ## TABULATION
 <img width="473" height="469" alt="image" src="https://github.com/user-attachments/assets/79a22b49-c975-4886-ace1-52709f9b9a3b" />
 
